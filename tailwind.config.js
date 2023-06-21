@@ -4,6 +4,7 @@ module.exports = {
     fontFamily: {
       primary: "Poppins",
     },
+
     container: {
       padding: {
         DEFAULT: "30px",
@@ -20,6 +21,7 @@ module.exports = {
       colors: {
         primary: "#222222",
         secondary: "#F5E6E0",
+        headerbg: "#EEE2DE",
       },
       backgroundImage: {
         hero: "url('./img/bg_hero.svg')",
