@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { ProductContext } from "../contexts/ProductContext";
 import Product from "../components/Product";
+import Hero from "../components/Hero";
+
 
 function Home() {
   const { products } = useContext(ProductContext);
@@ -12,6 +14,7 @@ function Home() {
 
   return (
     <div>
+    <Hero/>
       <section className="py-16">
         <div className="container mx-auto">
           <div

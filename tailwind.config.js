@@ -24,7 +24,7 @@ module.exports = {
         headerbg: "#EEE2DE",
       },
       backgroundImage: {
-        hero: "url('./img/bg_hero.svg')",
+        hero: "url('./img/bg_hero.PNG')",
       },
     },
   },
